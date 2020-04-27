@@ -1,0 +1,19 @@
+timestamp=[2020-03-25 23:25:39], mode=WORKBENCH_START, duration=0:00:05.283, duration_ms=5283, data={}
+timestamp=[2020-03-25 23:25:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.862, duration_ms=862, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2020-03-26 00:02:47], mode=PLATFORM_CREATION, duration=0:00:08.103, duration_ms=8103, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2020-03-26 00:03:40], mode=PLATFORM_GENERATION, duration=0:00:09.136, duration_ms=9136, data={name=microblaze}
+timestamp=[2020-03-26 00:04:18], mode=APP_CREATION, duration=0:00:01.795, duration_ms=1795, data={name=hw_app, project_type=sdk, os=standalone, processor=microblaze_I, runtime=C/C++, platform=microblaze, application_type=application}
+timestamp=[2020-03-26 00:06:49], mode=PLATFORM_GENERATION, duration=0:00:01.920, duration_ms=1920, data={name=microblaze}
+timestamp=[2020-03-26 01:09:53], mode=PLATFORM_GENERATION, duration=0:04:06.748, duration_ms=246748, data={name=microblaze}
+timestamp=[2020-03-26 01:10:59], mode=PLATFORM_GENERATION, duration=0:01:05.459, duration_ms=65459, data={name=microblaze}
+timestamp=[2020-03-26 01:11:27], mode=WORKBENCH_START, duration=0:00:09.257, duration_ms=9257, data={}
+timestamp=[2020-03-26 01:11:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.884, duration_ms=884, data={editors_count=10, platform_editors_count=8, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hw_app,hw_app_system,microblaze}
+timestamp=[2020-03-26 01:15:50], mode=PLATFORM_GENERATION, duration=0:00:10.061, duration_ms=10061, data={name=microblaze}
+timestamp=[2020-03-26 23:57:56], mode=PLATFORM_GENERATION, duration=0:00:08.948, duration_ms=8948, data={name=microblaze}
+timestamp=[2020-03-27 01:06:45], mode=PLATFORM_GENERATION, duration=0:00:10.022, duration_ms=10022, data={name=microblaze}
+timestamp=[2020-03-27 01:07:24], mode=PLATFORM_GENERATION, duration=0:00:35.542, duration_ms=35542, data={name=microblaze}
+timestamp=[2020-03-27 01:12:25], mode=WORKBENCH_START, duration=0:00:11.023, duration_ms=11023, data={}
+timestamp=[2020-03-27 01:12:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.865, duration_ms=865, data={editors_count=9, platform_editors_count=7, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,hw_app,hw_app_system,microblaze}
+timestamp=[2020-03-27 01:12:45], mode=PLATFORM_GENERATION, duration=0:00:09.780, duration_ms=9780, data={name=microblaze}
+timestamp=[2020-04-26 21:04:33], mode=WORKBENCH_START, duration=0:00:11.925, duration_ms=11925, data={}
+timestamp=[2020-04-26 21:04:35], mode=WORKBENCH_UI_INIT, duration=0:00:01.534, duration_ms=1534, data={editors_count=7, platform_editors_count=5, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,hw_app,hw_app_system,microblaze}

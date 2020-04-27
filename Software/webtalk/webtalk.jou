@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# 
+# Start of session at: Fri Apr  3 18:56:19 2020
+# Process ID: 30272
+# Current directory: C:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/Software/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: C:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/Software/webtalk/webtalk.log
+# Journal file: C:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/Software/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

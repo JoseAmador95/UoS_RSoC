@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Mon Apr 27 18:43:59 2020
+# Process ID: 4648
+# Current directory: C:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/MiniProject.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/MiniProject.runs/synth_1/top.vds
+# Journal file: C:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/MiniProject.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

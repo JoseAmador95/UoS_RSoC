@@ -1,0 +1,1491 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2.1 (win64) Build 2729669 Thu Dec  5 04:49:17 MST 2019
+| Date         : Mon Apr 27 18:47:37 2020
+| Host         : DELLXPS-JA running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+| Design       : top
+| Device       : xc7a100tcsg324-3
+| Speed File   : -3
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 291
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| SYNTH-9   | Warning  | Small multiplier              | 254        |
+| TIMING-18 | Warning  | Missing input or output delay | 37         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-9#1 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[0].voice/PWM2/half_duty_new_reg__0_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#2 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[0].voice/PWM2/half_duty_new_reg__12_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#3 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[0].voice/PWM2/half_duty_new_reg__12_i_2 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#4 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[0].voice/PWM2/half_duty_new_reg__4_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#5 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[0].voice/PWM2/half_duty_new_reg__8_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#6 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[0].voice/PWM2/half_duty_new_reg_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#7 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[10].voice/PWM2/half_duty_new_reg__10_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#8 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[10].voice/PWM2/half_duty_new_reg__10_i_2 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#9 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[10].voice/PWM2/half_duty_new_reg__2_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#10 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[10].voice/PWM2/half_duty_new_reg__6_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#11 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[10].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#12 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[11].voice/PWM2/half_duty_new_reg__11_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#13 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[11].voice/PWM2/half_duty_new_reg__3_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#14 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[11].voice/PWM2/half_duty_new_reg__7_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#15 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[11].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#16 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[1].voice/PWM2/half_duty_new_reg__11_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#17 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[1].voice/PWM2/half_duty_new_reg__11_i_2 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#18 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[1].voice/PWM2/half_duty_new_reg__3_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#19 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[1].voice/PWM2/half_duty_new_reg__7_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#20 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[1].voice/PWM2/half_duty_new_reg_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#21 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[2].voice/PWM2/half_duty_new_reg__0_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#22 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[2].voice/PWM2/half_duty_new_reg__12_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#23 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[2].voice/PWM2/half_duty_new_reg__12_i_2 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#24 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[2].voice/PWM2/half_duty_new_reg__4_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#25 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[2].voice/PWM2/half_duty_new_reg__8_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#26 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[2].voice/PWM2/half_duty_new_reg_i_1 of size 21x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#27 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[3].voice/PWM2/half_duty_new_reg__0_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#28 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[3].voice/PWM2/half_duty_new_reg__5_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#29 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[3].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#30 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[4].voice/PWM2/half_duty_new_reg__10_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#31 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[4].voice/PWM2/half_duty_new_reg__10_i_2 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#32 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[4].voice/PWM2/half_duty_new_reg__2_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#33 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[4].voice/PWM2/half_duty_new_reg__6_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#34 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[4].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#35 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[5].voice/PWM2/half_duty_new_reg__10_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#36 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[5].voice/PWM2/half_duty_new_reg__10_i_2 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#37 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[5].voice/PWM2/half_duty_new_reg__2_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#38 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[5].voice/PWM2/half_duty_new_reg__6_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#39 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[5].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#40 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[6].voice/PWM2/half_duty_new_reg__10_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#41 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[6].voice/PWM2/half_duty_new_reg__10_i_2 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#42 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[6].voice/PWM2/half_duty_new_reg__2_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#43 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[6].voice/PWM2/half_duty_new_reg__6_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#44 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[6].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#45 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[7].voice/PWM2/half_duty_new_reg__13_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#46 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[7].voice/PWM2/half_duty_new_reg__1_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#47 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[7].voice/PWM2/half_duty_new_reg__5_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#48 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[7].voice/PWM2/half_duty_new_reg__9_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#49 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[7].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#50 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[8].voice/PWM2/half_duty_new_reg__13_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#51 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[8].voice/PWM2/half_duty_new_reg__1_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#52 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[8].voice/PWM2/half_duty_new_reg__5_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#53 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[8].voice/PWM2/half_duty_new_reg__9_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#54 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[8].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#55 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[9].voice/PWM2/half_duty_new_reg__10_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#56 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[9].voice/PWM2/half_duty_new_reg__10_i_2 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#57 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[9].voice/PWM2/half_duty_new_reg__2_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#58 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[9].voice/PWM2/half_duty_new_reg__6_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#59 Warning
+Small multiplier  
+Detected multiplier at octaves[0].voices[9].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#60 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[0].voice/PWM2/half_duty_new_reg__11_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#61 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[0].voice/PWM2/half_duty_new_reg__11_i_2 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#62 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[0].voice/PWM2/half_duty_new_reg__3_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#63 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[0].voice/PWM2/half_duty_new_reg__7_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#64 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[0].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#65 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[10].voice/PWM2/half_duty_new_reg__10_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#66 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[10].voice/PWM2/half_duty_new_reg__10_i_2 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#67 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[10].voice/PWM2/half_duty_new_reg__2_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#68 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[10].voice/PWM2/half_duty_new_reg__6_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#69 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[10].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#70 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[11].voice/PWM2/half_duty_new_reg__11_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#71 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[11].voice/PWM2/half_duty_new_reg__3_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#72 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[11].voice/PWM2/half_duty_new_reg__7_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#73 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[11].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#74 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[1].voice/PWM2/half_duty_new_reg__11_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#75 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[1].voice/PWM2/half_duty_new_reg__11_i_2 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#76 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[1].voice/PWM2/half_duty_new_reg__3_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#77 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[1].voice/PWM2/half_duty_new_reg__7_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#78 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[1].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#79 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[2].voice/PWM2/half_duty_new_reg__13_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#80 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[2].voice/PWM2/half_duty_new_reg__1_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#81 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[2].voice/PWM2/half_duty_new_reg__5_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#82 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[2].voice/PWM2/half_duty_new_reg__9_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#83 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[2].voice/PWM2/half_duty_new_reg_i_1 of size 20x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#84 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[3].voice/PWM2/half_duty_new_reg__0_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#85 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[3].voice/PWM2/half_duty_new_reg__5_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#86 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[3].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#87 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[4].voice/PWM2/half_duty_new_reg__1_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#88 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[4].voice/PWM2/half_duty_new_reg__5_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#89 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[4].voice/PWM2/half_duty_new_reg__9_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#90 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[4].voice/PWM2/half_duty_new_reg__9_i_2 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#91 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[4].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#92 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[5].voice/PWM2/half_duty_new_reg__10_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#93 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[5].voice/PWM2/half_duty_new_reg__10_i_2 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#94 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[5].voice/PWM2/half_duty_new_reg__2_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#95 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[5].voice/PWM2/half_duty_new_reg__6_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#96 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[5].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#97 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[6].voice/PWM2/half_duty_new_reg__10_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#98 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[6].voice/PWM2/half_duty_new_reg__10_i_2 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#99 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[6].voice/PWM2/half_duty_new_reg__2_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#100 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[6].voice/PWM2/half_duty_new_reg__6_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#101 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[6].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#102 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[7].voice/PWM2/half_duty_new_reg__1_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#103 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[7].voice/PWM2/half_duty_new_reg__5_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#104 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[7].voice/PWM2/half_duty_new_reg__9_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#105 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[7].voice/PWM2/half_duty_new_reg__9_i_2 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#106 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[7].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#107 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[8].voice/PWM2/half_duty_new_reg__1_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#108 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[8].voice/PWM2/half_duty_new_reg__5_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#109 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[8].voice/PWM2/half_duty_new_reg__9_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#110 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[8].voice/PWM2/half_duty_new_reg__9_i_2 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#111 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[8].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#112 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[9].voice/PWM2/half_duty_new_reg__10_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#113 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[9].voice/PWM2/half_duty_new_reg__10_i_2 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#114 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[9].voice/PWM2/half_duty_new_reg__2_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#115 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[9].voice/PWM2/half_duty_new_reg__6_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#116 Warning
+Small multiplier  
+Detected multiplier at octaves[1].voices[9].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#117 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[0].voice/PWM2/half_duty_new_reg__10_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#118 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[0].voice/PWM2/half_duty_new_reg__10_i_2 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#119 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[0].voice/PWM2/half_duty_new_reg__2_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#120 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[0].voice/PWM2/half_duty_new_reg__6_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#121 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[0].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#122 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[10].voice/PWM2/half_duty_new_reg__11_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#123 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[10].voice/PWM2/half_duty_new_reg__3_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#124 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[10].voice/PWM2/half_duty_new_reg__7_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#125 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[10].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#126 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[11].voice/PWM2/half_duty_new_reg__11_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#127 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[11].voice/PWM2/half_duty_new_reg__3_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#128 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[11].voice/PWM2/half_duty_new_reg__7_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#129 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[11].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#130 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[1].voice/PWM2/half_duty_new_reg__1_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#131 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[1].voice/PWM2/half_duty_new_reg__5_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#132 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[1].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#133 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[2].voice/PWM2/half_duty_new_reg__1_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#134 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[2].voice/PWM2/half_duty_new_reg__5_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#135 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[2].voice/PWM2/half_duty_new_reg__9_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#136 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[2].voice/PWM2/half_duty_new_reg__9_i_2 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#137 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[2].voice/PWM2/half_duty_new_reg_i_1 of size 19x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#138 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[3].voice/PWM2/half_duty_new_reg__0_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#139 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[3].voice/PWM2/half_duty_new_reg__5_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#140 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[3].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#141 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[4].voice/PWM2/half_duty_new_reg__1_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#142 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[4].voice/PWM2/half_duty_new_reg__5_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#143 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[4].voice/PWM2/half_duty_new_reg__9_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#144 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[4].voice/PWM2/half_duty_new_reg__9_i_2 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#145 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[4].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#146 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[5].voice/PWM2/half_duty_new_reg__11_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#147 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[5].voice/PWM2/half_duty_new_reg__3_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#148 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[5].voice/PWM2/half_duty_new_reg__7_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#149 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[5].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#150 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[6].voice/PWM2/half_duty_new_reg__11_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#151 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[6].voice/PWM2/half_duty_new_reg__3_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#152 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[6].voice/PWM2/half_duty_new_reg__7_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#153 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[6].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#154 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[7].voice/PWM2/half_duty_new_reg__1_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#155 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[7].voice/PWM2/half_duty_new_reg__5_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#156 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[7].voice/PWM2/half_duty_new_reg__9_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#157 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[7].voice/PWM2/half_duty_new_reg__9_i_2 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#158 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[7].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#159 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[8].voice/PWM2/half_duty_new_reg__1_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#160 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[8].voice/PWM2/half_duty_new_reg__5_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#161 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[8].voice/PWM2/half_duty_new_reg__9_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#162 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[8].voice/PWM2/half_duty_new_reg__9_i_2 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#163 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[8].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#164 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[9].voice/PWM2/half_duty_new_reg__1_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#165 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[9].voice/PWM2/half_duty_new_reg__5_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#166 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[9].voice/PWM2/half_duty_new_reg__9_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#167 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[9].voice/PWM2/half_duty_new_reg__9_i_2 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#168 Warning
+Small multiplier  
+Detected multiplier at octaves[2].voices[9].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#169 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[0].voice/PWM2/half_duty_new_reg__0_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#170 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[0].voice/PWM2/half_duty_new_reg__4_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#171 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[0].voice/PWM2/half_duty_new_reg__8_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#172 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[0].voice/PWM2/half_duty_new_reg__8_i_2 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#173 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[10].voice/PWM2/half_duty_new_reg__0_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#174 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[10].voice/PWM2/half_duty_new_reg__4_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#175 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[10].voice/PWM2/half_duty_new_reg__8_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#176 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[10].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#177 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[11].voice/PWM2/half_duty_new_reg__3_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#178 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[11].voice/PWM2/half_duty_new_reg__7_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#179 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[11].voice/PWM2/half_duty_new_reg__7_i_2 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#180 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[11].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#181 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[1].voice/PWM2/half_duty_new_reg__1_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#182 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[1].voice/PWM2/half_duty_new_reg__5_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#183 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[1].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#184 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[2].voice/PWM2/half_duty_new_reg__1_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#185 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[2].voice/PWM2/half_duty_new_reg__5_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#186 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[2].voice/PWM2/half_duty_new_reg__9_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#187 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[2].voice/PWM2/half_duty_new_reg__9_i_2 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#188 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[2].voice/PWM2/half_duty_new_reg_i_1 of size 18x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#189 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[4].voice/PWM2/half_duty_new_reg__0_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#190 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[4].voice/PWM2/half_duty_new_reg__4_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#191 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[4].voice/PWM2/half_duty_new_reg__8_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#192 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[4].voice/PWM2/half_duty_new_reg__8_i_2 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#193 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[4].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#194 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[5].voice/PWM2/half_duty_new_reg__3_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#195 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[5].voice/PWM2/half_duty_new_reg__7_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#196 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[5].voice/PWM2/half_duty_new_reg__7_i_2 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#197 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[5].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#198 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[6].voice/PWM2/half_duty_new_reg__3_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#199 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[6].voice/PWM2/half_duty_new_reg__7_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#200 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[6].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#201 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[7].voice/PWM2/half_duty_new_reg__10_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#202 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[7].voice/PWM2/half_duty_new_reg__2_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#203 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[7].voice/PWM2/half_duty_new_reg__6_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#204 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[7].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#205 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[8].voice/PWM2/half_duty_new_reg__1_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#206 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[8].voice/PWM2/half_duty_new_reg__5_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#207 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[8].voice/PWM2/half_duty_new_reg__9_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#208 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[8].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#209 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[9].voice/PWM2/half_duty_new_reg__0_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#210 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[9].voice/PWM2/half_duty_new_reg__4_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#211 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[9].voice/PWM2/half_duty_new_reg__8_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#212 Warning
+Small multiplier  
+Detected multiplier at octaves[3].voices[9].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#213 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[0].voice/PWM2/half_duty_new_reg__2_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#214 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[0].voice/PWM2/half_duty_new_reg__6_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#215 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[0].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#216 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[10].voice/PWM2/half_duty_new_reg__0_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#217 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[10].voice/PWM2/half_duty_new_reg__4_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#218 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[10].voice/PWM2/half_duty_new_reg__8_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#219 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[10].voice/PWM2/half_duty_new_reg_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#220 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[11].voice/PWM2/half_duty_new_reg__3_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#221 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[11].voice/PWM2/half_duty_new_reg__7_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#222 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[11].voice/PWM2/half_duty_new_reg__7_i_2 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#223 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[11].voice/PWM2/half_duty_new_reg_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#224 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[1].voice/PWM2/half_duty_new_reg__1_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#225 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[1].voice/PWM2/half_duty_new_reg__5_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#226 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[1].voice/PWM2/half_duty_new_reg__6_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#227 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[1].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#228 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[2].voice/PWM2/half_duty_new_reg__0_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#229 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[2].voice/PWM2/half_duty_new_reg__4_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#230 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[2].voice/PWM2/half_duty_new_reg__8_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#231 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[2].voice/PWM2/half_duty_new_reg__8_i_2 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#232 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[2].voice/PWM2/half_duty_new_reg_i_1 of size 17x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#233 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[4].voice/PWM2/half_duty_new_reg__3_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#234 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[4].voice/PWM2/half_duty_new_reg__7_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#235 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[4].voice/PWM2/half_duty_new_reg__7_i_2 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#236 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[4].voice/PWM2/half_duty_new_reg_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#237 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[5].voice/PWM2/half_duty_new_reg__3_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#238 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[5].voice/PWM2/half_duty_new_reg__7_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#239 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[5].voice/PWM2/half_duty_new_reg__7_i_2 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#240 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[5].voice/PWM2/half_duty_new_reg_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#241 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[6].voice/PWM2/half_duty_new_reg__3_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#242 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[6].voice/PWM2/half_duty_new_reg__7_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#243 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[6].voice/PWM2/half_duty_new_reg_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#244 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[7].voice/PWM2/half_duty_new_reg__3_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#245 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[7].voice/PWM2/half_duty_new_reg__7_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#246 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[7].voice/PWM2/half_duty_new_reg_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#247 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[8].voice/PWM2/half_duty_new_reg__1_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#248 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[8].voice/PWM2/half_duty_new_reg__5_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#249 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[8].voice/PWM2/half_duty_new_reg__9_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#250 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[8].voice/PWM2/half_duty_new_reg_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#251 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[9].voice/PWM2/half_duty_new_reg__0_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#252 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[9].voice/PWM2/half_duty_new_reg__4_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#253 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[9].voice/PWM2/half_duty_new_reg__8_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+SYNTH-9#254 Warning
+Small multiplier  
+Detected multiplier at octaves[4].voices[9].voice/PWM2/half_duty_new_reg_i_1 of size 16x4, it is implemented as LUTs due to its small size. To force the multiplier onto a DSP block, use the USE_DSP48 attribute.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on RsRx relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btnCpuReset relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on sw[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on sw[10] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on sw[11] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on sw[12] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on sw[13] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on sw[14] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on sw[15] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on sw[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on sw[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on sw[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on sw[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on sw[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on sw[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An input delay is missing on sw[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An input delay is missing on sw[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An input delay is missing on sw[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on JA relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on RsTx relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on ampPWM relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on led[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on led[10] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on led[11] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on led[12] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on led[13] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on led[14] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on led[15] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on led[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An output delay is missing on led[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An output delay is missing on led[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An output delay is missing on led[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An output delay is missing on led[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An output delay is missing on led[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An output delay is missing on led[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#36 Warning
+Missing input or output delay  
+An output delay is missing on led[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#37 Warning
+Missing input or output delay  
+An output delay is missing on led[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+

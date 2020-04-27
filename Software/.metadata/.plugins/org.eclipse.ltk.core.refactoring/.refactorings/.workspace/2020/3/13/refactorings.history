@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 10 resources" deleteContents="false" description="Delete 10 resources" element1="/hw_app/src/xuartlite_g.c" element10="/hw_app/src/xuartlite.h" element2="/hw_app/src/xuartlite_i.h" element3="/hw_app/src/xuartlite_intr.c" element4="/hw_app/src/xuartlite_l.c" element5="/hw_app/src/xuartlite_l.h" element6="/hw_app/src/xuartlite_selftest.c" element7="/hw_app/src/xuartlite_sinit.c" element8="/hw_app/src/xuartlite_stats.c" element9="/hw_app/src/xuartlite.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="10" stamp="1585433174488"/>
+</session>

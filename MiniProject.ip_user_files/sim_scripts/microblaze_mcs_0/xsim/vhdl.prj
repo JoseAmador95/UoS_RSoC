@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../ip/microblaze_mcs_0/microblaze_mcs_0_sim_netlist.vhdl" \
+
+nosort

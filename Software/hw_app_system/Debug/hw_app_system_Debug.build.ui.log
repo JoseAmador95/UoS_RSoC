@@ -1,0 +1,6 @@
+2020-04-27T18:05:33.50773400255-18:05:33 **** Incremental Build of configuration Debug for project hw_app_system ****
+000-make all 
+000-Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
+00255-
+18:05:33 Build Finished (took 169ms)
+

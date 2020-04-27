@@ -1,0 +1,1 @@
+--relax --debug typical --mt auto -L xil_defaultlib -L secureip -L xpm --snapshot microblaze_mcs_0 xil_defaultlib.microblaze_mcs_0 -log elaborate.log

@@ -1,0 +1,29 @@
+2020-04-27T18:05:30.865799300255-18:05:30 **** Incremental Build of configuration Debug for project hw_app ****
+000-make all 
+000-Building file: ../src/helloworld.c
+000-Invoking: MicroBlaze gcc compiler
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/Software/microblaze/export/microblaze/sw/microblaze/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/hw_app/src/helloworld.c66-1-1passing argument 3 of 'XIOModule_CfgInitialize' makes integer from pointer without a cast [-Wint-conversion]1-../src/helloworld.c:66:43: warning: passing argument 3 of 'XIOModule_CfgInitialize' makes integer from pointer without a cast [-Wint-conversion]
+000-  XIOModule_CfgInitialize(&iomodule, NULL, NULL);
+000-                                           ^~~~
+000-In file included from ../src/helloworld.c:52:
+000/microblaze/export/microblaze/sw/microblaze/standalone_domain/bspinclude/include/xiomodule.h500-1-1expected 'u32' {aka 'long unsigned int'} but argument is of type 'void *'0-C:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/Software/microblaze/export/microblaze/sw/microblaze/standalone_domain/bspinclude/include/xiomodule.h:500:33: note: expected 'u32' {aka 'long unsigned int'} but argument is of type 'void *'
+000-                             u32 EffectiveAddr);
+000-                             ~~~~^~~~~~~~~~~~~
+000-Finished building: ../src/helloworld.c
+000- 
+000-Building target: hw_app.elf
+000-Invoking: MicroBlaze gcc linker
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/Software/microblaze/export/microblaze/sw/microblaze/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "hw_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-Finished building target: hw_app.elf
+000- 
+000-Invoking: MicroBlaze Print Size
+000-mb-size hw_app.elf  |tee "hw_app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-   9504	    724	   3116	  13344	   3420	hw_app.elf
+000-Finished building: hw_app.elf.size
+000- 
+00255-
+18:05:32 Build Finished (took 2s.50ms)
+

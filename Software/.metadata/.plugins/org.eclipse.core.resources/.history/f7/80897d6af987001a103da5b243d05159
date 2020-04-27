@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="hw_app" location="C:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/Software/hw_app" platform="C:/Users/jose_/OneDrive/Ingenieria/Embedded/FPGA/Vivado/MiniProject/Software/microblaze/export/microblaze/microblaze.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="hw_app_system" sysConfig="microblaze" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_I" os="standalone" mssSignature="3f7435b38a63120bbf8e169c916f6ade">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.115360779">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1256482751" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
