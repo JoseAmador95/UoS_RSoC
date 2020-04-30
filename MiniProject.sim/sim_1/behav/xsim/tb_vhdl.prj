@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MiniProject.ip_user_files/ip/microblaze_mcs_0/microblaze_mcs_0_sim_netlist.vhdl" \
+"../../../../MiniProject.srcs/sources_1/imports/Downloads/pwm.vhd" \
+"../../../../MiniProject.srcs/sim_1/new/tb.vhd" \
+"../../../../MiniProject.srcs/sources_1/new/voice.vhd" \
+"../../../../MiniProject.srcs/sources_1/new/top.vhd" \
+
+# Do not sort compile order
+nosort

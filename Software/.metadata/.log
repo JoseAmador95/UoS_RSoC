@@ -527,3 +527,9 @@ java.lang.Exception
 
 !ENTRY org.eclipse.launchbar.core 2 0 2020-04-27 19:14:33.195
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-27 20:10:28.741
+!MESSAGE Executing command: cmd /C C:\Xilinx\Vitis\2019.2\bin\wbtcv.bat -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-04-27 20:10:28.811
+!MESSAGE Executed Webtalk command
